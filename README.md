@@ -4,24 +4,34 @@ A simple basic Electron base set up featuring ES^ features adn Vue JS.  Some typ
 
 For the moment to install, clone the repo:
 
-`git clone git@github.com:simondavies/electron-vuejs-starter.git`
+`
+git clone git@github.com:simondavies/electron-vuejs-starter.git
+`
 
-`cd electron-vuejs-starter`
+`
+cd electron-vuejs-starter
+`
 
 
 Once you have entered the folder first you will need to run the following within terminal (MAC):
 
-`sudo npm install`
+`
+sudo npm install
+`
 
 Once all the packages have downloaded, run:
 
-`gulp`
+`
+gulp
+`
 
 This should run the gulp process and set up the css and js files for running the app.
 
 So that's all done you say...! No lets see if that works as seemingly as it should first time. Within the terminal run the following code.
 
-`npm start'
+`
+npm start
+`
 
 Once loaded for now you should see a dark window with some text and the developers tools open. Some of the text is created via Vue JS to verify it is working too.
 
