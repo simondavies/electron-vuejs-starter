@@ -2,14 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>My Simple Electron Starter</title>
+    <title>Quotes</title>
     <!-- load in the main app styles -->
     <link rel="stylesheet" href="../css/app.css" />
   </head>
   <body id="app">
     <div class="container">
-      <p>Hello Mars!!!</p>
-      <p>{{message}}</p>
+
+      <div class="quote-wrapper">
+        <div class="the-quote">
+          <p>{{selectedQuote.quote}}</p>
+          <p><small>{{selectedQuote.credit}}</small></p>
+        </div>
+      </div>
+
     </div>
 
     <!-- lod in the page specifi js -->

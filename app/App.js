@@ -33,15 +33,15 @@ var appWindows = {
  app.on('window-all-closed', function() {
    if (process.platform != 'darwin') { app.quit();}
   });
-  
+
 /**
  * main app init
  */
 app.on('ready', function(){
   //-- init the main window
   appWindows.main = new browserWindow({
-      width: 400,
-      height: 400,
+      width: 600,
+      height: 300,
       frame : false
     });
   //-- open up the dev tools for debugging

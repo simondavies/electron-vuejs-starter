@@ -34,7 +34,7 @@ gulp.task('sass', function() {
  */
  gulp.task('es6', function() {
  	browserify({
-     	entries: './resources/js/app.es6',
+     	entries: './resources/js/loader.es6',
      	debug: true
    	})
      .transform(babelify)
