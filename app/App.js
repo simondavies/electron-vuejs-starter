@@ -9,7 +9,7 @@
 var app = require('app');
 var browserWindow = require('browser-window');
 var ipc = require('ipc');
-var Menu    = require('menu');
+var Menu  = require('menu');
 
 //-- reports any crashes to the server
 require('crash-reporter').start();

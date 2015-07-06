@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Quotes from '../assets/quotes'
 
+var Remote = require('remote')
+
 export default class Main extends Vue{
   constructor() {
     console.log('Main Page JS loaded ...');
