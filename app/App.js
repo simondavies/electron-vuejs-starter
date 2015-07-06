@@ -10,7 +10,7 @@ var app = require('app');
 var browserWindow = require('browser-window');
 var ipc = require('ipc');
 var Menu  = require('menu');
-
+var dialog = require('dialog');
 //-- reports any crashes to the server
 require('crash-reporter').start();
 
@@ -61,6 +61,13 @@ app.on('ready', function(){
    * listeners
    */
 
+   ipc.on('display-quotes', function(evt, message){
+     dialog.showMessageBox({
+        type: 'info',
+        message: message,
+        buttons: ['Yes', 'No']
+      });
+   })
 
 
 });//-- end of app ready

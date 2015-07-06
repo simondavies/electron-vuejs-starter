@@ -20,5 +20,11 @@
 
     <!-- lod in the page specifi js -->
     <script src="../js/main.js" /></script>
+    <script>
+      var remote = require('remote');
+      var ipc = require('ipc');
+      new Main(ipc);
+
+    </script>
   </body>
 </html>

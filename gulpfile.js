@@ -34,7 +34,7 @@ gulp.task('sass', function() {
  */
  gulp.task('es6', function() {
  	browserify({
-     	entries: './resources/js/loader.es6',
+     	entries: './resources/js/loader.js',
      	debug: true
    	})
      .transform(babelify)
@@ -57,7 +57,7 @@ gulp.task('clean', function(){
  */
 gulp.task('watch', function() {
   gulp.watch('resources/sass/partials/*.scss', ['sass']);
-  gulp.watch('resources/js/pages/*.es6', ['es6']);
+  gulp.watch('resources/js/pages/*.js', ['es6']);
 });
 /**
  * Default config
