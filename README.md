@@ -1,5 +1,5 @@
 # Electron Vue JS Starter
-A simple basic Electron base set up featuring ES6 features adn Vue JS.  Some type of boilerplate to start a/add to project, to save time.
+A simple basic Electron base set up featuring ES6 features and Vue JS.  Some type of boilerplate to start a/add to project, to save time.
 
 ### this install is currently for Mac OSX and is in constant developement.
 __Use the master branch for the latest stable verison.__
